@@ -22,7 +22,7 @@ Em 2008, Leonard Richardson propôs um modelo de maturidade para classificar o g
 
 
 * **📚 RESTful**: Adjetivo que descreve APIs que seguem rigorosamente os princípios do REST (uso correto de verbos, URIs semânticas, códigos de status, etc.).
-* **📚 API RESTful**: Substantivo (um neologismo) usado para medir o “nível de REST” de uma API. É perfeitamente aceitável em contextos técnicos para indicar “o quão RESTful” um serviço é.
+* **📚 RESTfulness**: Substantivo (um neologismo) usado para medir o “nível de REST” de uma API. É perfeitamente aceitável em contextos técnicos para indicar “o quão RESTful” um serviço é.
 
 ---
 
