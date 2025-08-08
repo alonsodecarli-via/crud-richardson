@@ -113,7 +113,7 @@ public class VendedorController {
 
 ---
 
-## Nível 2 - 🔧 HTTP Verbs
+## Nível 2 - 🌐 HTTP Verbs
 
 No terceiro nível do modelo de Richardson, aproveitamos a semântica dos verbos HTTP para mapear operações CRUD em endpoints RESTful. Cada verbo HTTP assume um papel específico na manipulação de recursos, e os status codes indicam o resultado da operação.
 
@@ -128,7 +128,7 @@ No terceiro nível do modelo de Richardson, aproveitamos a semântica dos verbos
 
     * **📚 Idempotência**: É a propriedade de uma operação que, quando executada repetidamente com os mesmos parâmetros, produz sempre o mesmo efeito e não causa alterações adicionais após a primeira execução. Isso garante segurança em sistemas distribuídos, pois previne inconsistências ao lidar com requisições duplicadas.
 
-### Códigos de Status Comuns
+### 🌐 Códigos de Status Comuns
 
 | Código              | Significado                              | Exemplo de Uso               |
 | ------------------- | ---------------------------------------- | ---------------------------- |
@@ -205,7 +205,7 @@ public class ProdutoController {
 
 ### Observações
 - **🔁 Idempotência**: GET, PUT e DELETE devem ser idempotentes, ou seja, múltiplas requisições com os mesmos parâmetros devem ter o mesmo efeito.
-- **🔁 Status Codes**: Use códigos de status HTTP apropriados para indicar o resultado das operações, melhorando a comunicação entre cliente e servidor.
+- **🌐 Status Codes**: Use códigos de status HTTP apropriados para indicar o resultado das operações, melhorando a comunicação entre cliente e servidor.
 - **📝 Documentação**: Mantenha a documentação da API atualizada e clara, facilitando o entendimento e uso por parte dos desenvolvedores.
 
 
