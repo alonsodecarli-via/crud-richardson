@@ -29,10 +29,10 @@ public class ProdutoController {
     @PostMapping
     public ResponseEntity<Produto> criar(@RequestBody Produto produto) {
         return Optional.of(produto)
-                .map(produtoService::criar) // Cria o produto
-                .map(saved -> URI.create("/api/produtos/" + saved.getId())) // Cria a URI do novo recurso
-                .map(uri -> ResponseEntity.created(uri).body(produto)) // Retorna 201 Created com a URI e o produto
-                .orElse(ResponseEntity.badRequest().build()); // Retorna 400 Bad Request se o produto for inválido
+                .map(produtoService::criar)
+                .map(saved -> URI.create("/api/produtos/" + saved.getId()))
+                .map(uri -> ResponseEntity.created(uri).body(produto))
+                .orElse(ResponseEntity.badRequest().build());
     }
 
 

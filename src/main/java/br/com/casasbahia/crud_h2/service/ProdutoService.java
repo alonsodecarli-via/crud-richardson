@@ -24,25 +24,9 @@ public class ProdutoService {
         return produtoRepository.findAll();
     }
 
-
-    /*
-    public Produto buscarPorId(Long id) {
-        return produtoRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Produto não encontrado com o ID: " + id));
-    }
-     */
     public Optional<Produto> buscarPorId(Long id) {
         return produtoRepository.findById(id);
     }
-
-
-
-    /*
-    public Optional<Produto> buscarPorId(Long id) {
-        return produtoRepository.findById(id);
-    }
-
-     */
 
     public Produto atualizar(Produto produto) {
         if (!produtoRepository.existsById(produto.getId())) {
