@@ -24,6 +24,15 @@ Em 2008, Leonard Richardson propôs um modelo de maturidade para classificar o g
 * **📚 RESTful**: Adjetivo que descreve APIs que seguem rigorosamente os princípios do REST (uso correto de verbos, URIs semânticas, códigos de status, etc.).
 * **📚 RESTfulness**: Substantivo (um neologismo) usado para medir o “nível de REST” de uma API. É perfeitamente aceitável em contextos técnicos para indicar “o quão RESTful” um serviço é.
 
+
+
+
+Segue abaixo uma visão geral dos quatro níveis do modelo de maturidade de Richardson, que vão desde APIs simples e monolíticas até sistemas complexos e autodescritivos:
+  <img src="images/mapa-mental.png" alt="Modelo de Maturidade de Richardson" width="1200">
+
+
+
+
 ---
 
 
@@ -76,6 +85,8 @@ No segundo estágio do modelo de Richardson, passamos a organizar nossa API em *
   - `/api/produtos/{id}` → produto específico
 - **🔍 Separação de contexto**  
   Cada URI reflete um recurso distinto, facilitando o entendimento do escopo das operações.
+  * **📚 URI**: URI (Uniform Resource Identifier) é um identificador padronizado utilizado na web para nomear e localizar recursos de forma única e consistente. Ele serve como um endereço que permite identificar qualquer recurso, seja ele uma página HTML, uma imagem, um serviço REST, um documento ou mesmo uma representação abstrata.
+
 - **📁 Consistência nas respostas**  
   Mesmo que usemos sempre POST ou GET indiscriminadamente, a organização por recursos já torna a API mais previsível.
 - **📝 Melhor documentação e discoverability**  
