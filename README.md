@@ -14,7 +14,7 @@ Em 2008, Leonard Richardson propôs um modelo de maturidade para classificar o g
         * **🔌 Stateless**: cada requisição deve conter todas as informações necessárias para ser processada.
         * **🌐 Recursos**: os recursos são identificados por URLs e manipulados através de verbos HTTP.
         * **🖼️ Representações**: os recursos podem ser representados em diferentes formatos, como JSON ou XML.
-    * **💡 Benefícioss do REST**:
+    * **💡 Benefícios do REST**:
         * **✨ Simplicidade** e **📈 Escalabilidade*.
         * **🔒 Independência** entre cliente e servidor.
         * ** 🛠️ Integração** fácil com diversas plataformas.
